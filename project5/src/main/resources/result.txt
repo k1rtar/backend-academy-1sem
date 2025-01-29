@@ -1,0 +1,5 @@
+Benchmark                          Mode  Cnt   Score   Error  Units
+Main.BenchTests.directAccess       avgt    6  21,613 ± 4,258  ns/op
+Main.BenchTests.lambdaMetafactory  avgt    6  40,876 ± 5,689  ns/op
+Main.BenchTests.methodHandles      avgt    6  47,651 ± 4,103  ns/op
+Main.BenchTests.reflection         avgt    6  50,942 ± 8,553  ns/op

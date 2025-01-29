@@ -1,0 +1,292 @@
+"Электрический вихрь"
+{
+  "seed": 7777777,
+  "threads": 8,
+  "width": 2560,
+  "height": 1440,
+  "xBound": 3.0,
+  "yBound": 2.0,
+  "symmetry": 5,
+  "samplesNum": 1500000,
+  "iterPerSample": 150,
+  "gamma": 0.9,
+  "output": "electric_swirl.png",
+  "variations": [
+    {
+      "name": "Swirl",
+      "weight": 0.4
+    },
+    {
+      "name": "Sinusoidal",
+      "weight": 0.2
+    },
+    {
+      "name": "Spherical",
+      "weight": 0.2
+    },
+    {
+      "name": "Horseshoe",
+      "weight": 0.2
+    }
+  ],
+  "colors": [
+    "#0fffee",
+    "#00fff7",
+    "#00e1ff",
+    "#0069ff",
+    "#2800ff"
+  ]
+}
+
+"Пламенная мандала"
+{
+  "seed": 424242,
+  "threads": 8,
+  "width": 2400,
+  "height": 2400,
+  "xBound": 3.5,
+  "yBound": 3.5,
+  "symmetry": 8,
+  "samplesNum": 2000000,
+  "iterPerSample": 200,
+  "gamma": 1.0,
+  "output": "flame_mandala.png",
+  "variations": [
+    {
+      "name": "Sinusoidal",
+      "weight": 0.3
+    },
+    {
+      "name": "Spherical",
+      "weight": 0.3
+    },
+    {
+      "name": "Swirl",
+      "weight": 0.2
+    },
+    {
+      "name": "Horseshoe",
+      "weight": 0.1
+    },
+    {
+      "name": "Linear",
+      "weight": 0.1
+    }
+  ],
+  "colors": [
+    "#ff0000",
+    "#ff8c00",
+    "#ffff00",
+    "#00ff00",
+    "#00ffff",
+    "#0000ff",
+    "#8b00ff"
+  ]
+}
+
+"Галактический водоворот"
+{
+  "seed": 20242024,
+  "threads": 8,
+  "width": 3840,
+  "height": 2160,
+  "xBound": 4.0,
+  "yBound": 2.5,
+  "symmetry": 3,
+  "samplesNum": 2500000,
+  "iterPerSample": 180,
+  "gamma": 1.3,
+  "output": "galactic_whirlpool.png",
+  "variations": [
+    {
+      "name": "Swirl",
+      "weight": 0.4
+    },
+    {
+      "name": "Sinusoidal",
+      "weight": 0.25
+    },
+    {
+      "name": "Spherical",
+      "weight": 0.25
+    },
+    {
+      "name": "Horseshoe",
+      "weight": 0.1
+    }
+  ],
+  "colors": [
+    "#1d2731",
+    "#30475e",
+    "#f2a365",
+    "#f9e4d4",
+    "#ffadad"
+  ]
+}
+
+"Изумрудная бесконечность"
+{
+  "seed": 999999999,
+  "threads": 8,
+  "width": 3000,
+  "height": 2000,
+  "xBound": 3.0,
+  "yBound": 2.0,
+  "symmetry": 4,
+  "samplesNum": 1800000,
+  "iterPerSample": 150,
+  "gamma": 0.75,
+  "output": "emerald_infinity.png",
+  "variations": [
+    {
+      "name": "Linear",
+      "weight": 0.1
+    },
+    {
+      "name": "Spherical",
+      "weight": 0.3
+    },
+    {
+      "name": "Sinusoidal",
+      "weight": 0.3
+    },
+    {
+      "name": "Swirl",
+      "weight": 0.3
+    }
+  ],
+  "colors": [
+    "#002b36",
+    "#0f3d3e",
+    "#00a488",
+    "#14ffa2",
+    "#6effe8"
+  ]
+}
+
+"Тинькофф-спирали"
+{
+  "seed": 777000,
+  "threads": 4,
+  "width": 1920,
+  "height": 1080,
+  "xBound": 2.5,
+  "yBound": 1.5,
+  "symmetry": 4,
+  "samplesNum": 800000,
+  "iterPerSample": 100,
+  "gamma": 1.0,
+  "output": "tinkoff_style_fractal.png",
+  "variations": [
+    {
+      "name": "Linear",
+      "weight": 0.1
+    },
+    {
+      "name": "Sinusoidal",
+      "weight": 0.3
+    },
+    {
+      "name": "Spherical",
+      "weight": 0.3
+    },
+    {
+      "name": "Swirl",
+      "weight": 0.3
+    }
+  ],
+  "colors": [
+    "#000000",
+    "#1a1a1a",
+    "#666600",
+    "#ffff00",
+    "#fff700"
+  ]
+}
+
+"Млечный путь"
+{
+  "seed": 31415926,
+  "threads": 4,
+  "width": 2560,
+  "height": 1440,
+  "xBound": 3.5,
+  "yBound": 2.0,
+  "symmetry": 2,
+  "samplesNum": 1200000,
+  "iterPerSample": 150,
+  "gamma": 1.2,
+  "output": "milky_way_style.png",
+  "variations": [
+    {
+      "name": "Swirl",
+      "weight": 0.4
+    },
+    {
+      "name": "Sinusoidal",
+      "weight": 0.3
+    },
+    {
+      "name": "Spherical",
+      "weight": 0.2
+    },
+    {
+      "name": "Linear",
+      "weight": 0.1
+    }
+  ],
+  "colors": [
+    "#0b0033",   // очень тёмный сине-фиолетовый для фона
+    "#1c1a4f",   // чуть светлее фоновый оттенок
+    "#30475e",   // нейтрально-тёмно-серый с синим оттенком
+    "#7a00ff",   // фиолетовый оттенок, напоминающий космические туманности
+    "#c3ffff",   // бледный голубовато-белый, звёздный свет
+    "#ffffff"    // яркие белые звёздочки
+  ]
+}
+
+"Гиперфрактальная мандала"
+{
+  "seed": 999888777,
+  "threads": 8,
+  "width": 3840,
+  "height": 2160,
+  "xBound": 4.0,
+  "yBound": 2.5,
+  "symmetry": 7,
+  "samplesNum": 3000000,
+  "iterPerSample": 250,
+  "gamma": 1.1,
+  "output": "hyper_fractal_mandala.png",
+  "variations": [
+    {
+      "name": "Linear",
+      "weight": 0.1
+    },
+    {
+      "name": "Sinusoidal",
+      "weight": 0.3
+    },
+    {
+      "name": "Spherical",
+      "weight": 0.2
+    },
+    {
+      "name": "Swirl",
+      "weight": 0.2
+    },
+    {
+      "name": "Horseshoe",
+      "weight": 0.2
+    }
+  ],
+  "colors": [
+    "#0d0d0d",  // очень тёмный фон, почти чёрный
+    "#2c2f33",  // глубокий серо-сине-фиолетовый
+    "#7842f5",  // яркий фиолетовый для внеземных оттенков
+    "#ea00ff",  // неоново-розово-фиолетовый
+    "#f5bd1f",  // золотисто-жёлтый для контрастных акцентов
+    "#00ffab",  // неоново-бирюзовый для кислотных штрихов
+    "#ffffff"   // чистый белый для "звёздных" вспышек
+  ]
+}

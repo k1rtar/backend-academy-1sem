@@ -1,0 +1,44 @@
+{
+    "seed": 999888777,
+    "threads": 8,
+    "width": 3840,
+    "height": 2160,
+    "xBound": 4.0,
+    "yBound": 2.5,
+    "symmetry": 7,
+    "samplesNum": 3000000,
+    "iterPerSample": 250,
+    "gamma": 1.1,
+    "output": "8threads.png",
+    "variations": [
+        {
+            "name": "Linear",
+            "weight": 0.1
+        },
+        {
+            "name": "Sinusoidal",
+            "weight": 0.3
+        },
+        {
+            "name": "Spherical",
+            "weight": 0.2
+        },
+        {
+            "name": "Swirl",
+            "weight": 0.2
+        },
+        {
+            "name": "Horseshoe",
+            "weight": 0.2
+        }
+    ],
+    "colors": [
+        "#0d0d0d",
+        "#2c2f33",
+        "#7842f5",
+        "#ea00ff",
+        "#f5bd1f",
+        "#00ffab",
+        "#ffffff"
+    ]
+}
